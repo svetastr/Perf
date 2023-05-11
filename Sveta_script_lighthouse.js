@@ -37,7 +37,7 @@ async function captureReport() {
 	const browser = await puppeteer.launch({args: ['--allow-no-sandbox-job', '--allow-sandbox-debugging', '--no-sandbox', '--disable-gpu', '--disable-gpu-sandbox', '--display', '--ignore-certificate-errors', '--disable-storage-reset=true']});
 	//const browser = await puppeteer.launch({"headless": false, args: ['--allow-no-sandbox-job', '--allow-sandbox-debugging', '--no-sandbox', '--ignore-certificate-errors', '--disable-storage-reset=true']});
 	const page = await browser.newPage();
-	const baseURL = "http://localhost";
+	const baseURL = "http://localhost:8080";
 	
 	await page.setViewport({"width":1920,"height":1080});
 	await page.setDefaultTimeout(10000);
