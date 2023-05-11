@@ -1,0 +1,10 @@
+{
+  "simulation": "simulation.ShopizerSimulation",
+  "simulationId": "shopizersimulation",
+  "start": 1682003655469,
+  "description": "",
+  "scenarios": ["Shopizer Add Table To Cart", "Open Checkout with Table", "Shopizer Add Table&Chair To Cart", "Open Checkout with Table and Chair"],
+  "assertions": [
+
+  ]
+}
